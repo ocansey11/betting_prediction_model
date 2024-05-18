@@ -1,10 +1,10 @@
 USE bet_prediction_model;
 
-DROP VIEW IF EXISTS combined_data;
+DROP VIEW IF EXISTS combined_test_data; 
 
-CREATE VIEW combined_data AS
+CREATE VIEW combined_test_data AS
 SELECT 
-	cm.*,
+	um.*,
     home_team.Pos AS home_team_pos,
     home_team.Pld AS home_team_matches_played,
     home_team.Wins AS home_team_wins,
@@ -24,17 +24,17 @@ SELECT
     away_team.Ppg_Last_5_Matches AS away_team_ppg_last_5_matches,
     away_team.Points AS away_team_points
 FROM 
-    completed_matches cm
+    upcoming_matches um
 INNER JOIN 
-    previous_week_league_standings home_team ON cm.Home = home_team.Team
+    current_week_league_standings home_team ON um.Home = home_team.Team
 INNER JOIN 
-    previous_week_league_standings away_team ON cm.Away = away_team.Team;
+    current_week_league_standings away_team ON um.Away = away_team.Team;
 
 
 
 -- Either run once or create an event -- 
-INSERT INTO training_data
-SELECT * FROM combined_data;
+INSERT INTO testing_data
+SELECT * FROM combined_test_data;
 
 
 -- CREATE EVENT append_training_data
