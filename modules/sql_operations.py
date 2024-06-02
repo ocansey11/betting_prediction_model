@@ -1,18 +1,17 @@
+from sqlalchemy import text
 def execute_sql(engine, sql_script):
     """
     Execute the provided SQL script.
     """
     with engine.connect() as connection:
-        connection.execute(sql_script)
+        connection.execute(text(sql_script))
 
         
         
 CREATE_TRAINING_TABLE_SQL = """
-USE bet_prediction_model;
-
-CREATE TABLE IF NOT EXISTS training_data AS
+CREATE TABLE IF NOT EXISTS training_data_testing AS
 SELECT 
-	um.*,
+	cm.*,
     home_team.Pos AS home_team_pos,
     home_team.Pld AS home_team_matches_played,
     home_team.Wins AS home_team_wins,
@@ -32,19 +31,17 @@ SELECT
     away_team.Ppg_Last_5_Matches AS away_team_ppg_last_5_matches,
     away_team.Points AS away_team_points
 FROM 
-    upcoming_matches um
+    completed_matches cm
 INNER JOIN 
-    current_week_league_standings home_team ON um.Home = home_team.Team
+    previous_week_league_standings home_team ON cm.Home = home_team.Team
 INNER JOIN 
-    current_week_league_standings away_team ON um.Away = away_team.Team;
+    previous_week_league_standings away_team ON cm.Away = away_team.Team;
 """
 
 
 
 CREATE_TESTING_TABLE_SQL = """
-USE bet_prediction_model;
-
-CREATE TABLE IF NOT EXISTS testing_data AS
+CREATE TABLE IF NOT EXISTS testing_data_testing AS
 SELECT 
 	um.*,
     home_team.Pos AS home_team_pos,
@@ -74,12 +71,22 @@ INNER JOIN
     
 """
 
-CREATE_VIEW_AND_INSERT_SQL_TRAIN_DATA = """
-USE bet_prediction_model;
 
-DROP VIEW IF EXISTS combined_data;
 
-CREATE VIEW combined_data AS
+# SQL CODES DROPPING THE VIEWS
+DROP_VIEW_COMBINED_DATA_TESTING = """
+DROP VIEW IF EXISTS combined_data_testing;
+"""
+
+DROP_VIEW_COMBINED_TEST_DATA_TESTING = """
+DROP VIEW IF EXISTS combined_test_data_testing;
+"""
+
+
+
+# SQL CODES CREATING THE VIEWS
+CREATE_VIEW_TRAIN_DATA = """
+CREATE VIEW combined_data_testing AS
 SELECT 
     cm.*,
     home_team.Pos AS home_team_pos,
@@ -107,19 +114,11 @@ INNER JOIN
 INNER JOIN 
     previous_week_league_standings away_team ON cm.Away = away_team.Team;
 
--- Either run once or create an event -- 
-INSERT INTO training_data
-SELECT * FROM combined_data;
+
 """
 
-
-
-CREATE_VIEW_AND_INSERT_SQL_TEST_DATA  = """
-USE bet_prediction_model;
-
-DROP VIEW IF EXISTS combined_test_data; 
-
-CREATE VIEW combined_test_data AS
+CREATE_VIEW_TEST_DATA  = """
+CREATE VIEW combined_test_data_testing AS
 SELECT 
 	um.*,
     home_team.Pos AS home_team_pos,
@@ -147,11 +146,16 @@ INNER JOIN
 INNER JOIN 
     current_week_league_standings away_team ON um.Away = away_team.Team;
 
+"""
+
+# SQL CODES INSERTING NEW DATA THROUGH VIEWS
+INSERT_VIEW_TRAIN_DATA = """ 
+INSERT INTO training_data_testing SELECT * FROM combined_data_testing;
+"""
 
 
--- Either run once or create an event -- 
-INSERT INTO testing_data
-SELECT * FROM combined_test_data;
+INSERT_VIEW_TEST_DATA = """ 
+INSERT INTO testing_data_testing SELECT * FROM combined_test_data_testing;
 """
 
 # -- CREATE EVENT append_training_data
