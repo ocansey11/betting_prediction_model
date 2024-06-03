@@ -1,0 +1,23 @@
+Betting Prediction Model © 2024 by Kevin Djabaku Ocansey is licensed under CC BY-NC 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/
+
+Project Description:
+
+The Betting Prediction Model, developed by Kevin Djabaku Ocansey, is an open-source initiative aimed at predicting the accuracy of betting tips on forebet.com. This model utilizes data analysis and machine learning techniques to provide informed predictions for betting enthusiasts.
+
+Important Note:
+
+While this project is currently available for free and open use, the project creator has plans to expand and potentially commercialize the project in the future. Therefore, users are kindly requested to refrain from using the project for commercial purposes until further notice.
+
+Contributions:
+
+Contributions to the project are not only welcome but also vital for its ongoing development and improvement. Whether you're a seasoned data scientist or a beginner in the field, your contributions can make a significant impact. You can contribute code, report issues, suggest improvements, or even share your insights and expertise through the project's GitHub repository.
+
+Usage Guidelines:
+
+Feel free to use and modify the project for personal, educational, or non-commercial purposes. The model's predictions are intended to enhance understanding and enjoyment of sports betting.
+If you have any intentions to use the project for commercial purposes, please reach out to the project creator to discuss potential licensing options. Your cooperation and understanding in this matter are greatly appreciated.
+
+Disclaimer:
+
+The project creator reserves the right to change the licensing terms or take appropriate action to protect their interests as the project evolves. Users will be notified of any updates or changes to the licensing terms via the project's GitHub repository. It is recommended to review the project's licensing terms regularly for any updates or changes.
+
