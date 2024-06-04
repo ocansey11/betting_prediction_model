@@ -1,5 +1,5 @@
 
-TRUNCATE TABLE `bet_prediction_model`.`previous_week_league_standings`;
+TRUNCATE TABLE <db_of_your_choice>.`previous_week_league_standings`;
 
 INSERT INTO `bet_prediction_model`.`previous_week_league_standings` 
 (`Pos`, `Team`, `Pld`, `Wins`, `Draws`, `Losses`, `GF`, `GA`, `Ppg_Last_5_Matches`, `Points`)
