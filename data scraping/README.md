@@ -60,8 +60,7 @@ team_labels = {
 -     'Fulham': 9,
 -     'Leeds Utd': 10,
 -     'Leicester City': 11,
--     'Liverpool':
-  12,
+-     'Liverpool':12,
 -     'Man City': 13,
 -     'Man Utd': 14,
 -     'Newcastle': 15,
