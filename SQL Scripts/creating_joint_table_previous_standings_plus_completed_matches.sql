@@ -1,4 +1,4 @@
-USE bet_prediction_model;
+USE <db_of_your_choice>;
 
 CREATE TABLE training_data AS
 SELECT 

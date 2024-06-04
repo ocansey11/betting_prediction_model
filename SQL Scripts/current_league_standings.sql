@@ -1,4 +1,4 @@
--- CREATE TABLE `bet_prediction_model`.`current_week_league_standings` (
+-- CREATE TABLE <db_of_your_choice>.`current_week_league_standings` (
 --     `Pos` INT,
 --     `Team` VARCHAR(100),
 --     `Pld` INT,
