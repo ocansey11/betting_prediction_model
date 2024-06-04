@@ -170,3 +170,98 @@ INSERT INTO testing_data_testing SELECT * FROM combined_test_data_testing;
 # -- DO
 # -- INSERT INTO testing_data
 # -- SELECT * FROM combined_test_data;
+
+
+
+# FOR USER WHO ARE COPYING THE ALREADY ACCUMULATED TRAINING AND TESTING DATA FOR DATA ANALYSIS OR ANY OTHER PURPOSES USE THE FOLLOWING OPERATIONS
+# THE IDEA IS TO CREATE A TRAINING AND TESTING DATA TABLE IN YOUR DB.
+# COPY THE CSV DATA FOR BOTH TESTING AND TRAINING DATA FROM  THE csv DIRECTORY IN THE MAIN BRANCH - I WILL BE UPDATING THESE CSVS' WEEKLY 
+# INSERT THE training_data and testing_data CSV data  INTO THE VARIOUS TABLE TO GET A JUMP START TO TRAIN YOUR MODELS OR DO YOUR ANALYSIS
+
+CREATE_TABLE_TRAINING_DATA_FOR_CSV_INSERTION =  """
+CREATE TABLE training_data (
+    home INT,
+    away INT,
+    home_win_probability DOUBLE,
+    draw_probability DOUBLE,
+    away_win_probability DOUBLE,
+    team_to_win_prediction INT,
+    average_goals_prediction DOUBLE,
+    weather_in_degrees TEXT,
+    odds DOUBLE,
+    full_time_score TEXT,
+    score_at_halftime TEXT,
+    date DATETIME,
+    time TIME,
+    home_team_score_prediction INT,
+    away_team_score_prediction INT,
+    home_team_full_time_score INT,
+    away_team_full_time_score INT,
+    home_team_halftime_score INT,
+    away_team_halftime_score INT,
+    prediction_result INT,
+    day_of_week INT,
+    month INT,
+    weekly_round INT,
+    home_team_pos INT,
+    home_team_matches_played INT,
+    home_team_wins INT,
+    home_team_draws INT,
+    home_team_losses INT,
+    home_team_gf INT,
+    home_team_ga INT,
+    home_team_ppg_last_5_matches DOUBLE,
+    home_team_points INT,
+    away_team_pos INT,
+    away_team_matches_played INT,
+    away_team_wins INT,
+    away_team_draws INT,
+    away_team_losses INT,
+    away_team_gf INT,
+    away_team_ga INT,
+    away_team_ppg_last_5_matches DOUBLE,
+    away_team_points INT
+);
+"""
+
+
+CREATE_TABLE_TESTING_DATA_FOR_CSV_INSERTION =  """
+CREATE TABLE testing_data (
+    home INT,
+    away INT,
+    home_win_probability DOUBLE,
+    draw_probability DOUBLE,
+    away_win_probability DOUBLE,
+    team_to_win_prediction INT,
+    scoreline_prediction TEXT,
+    average_goals_prediction DOUBLE,
+    weather_in_degrees TEXT,
+    odds DOUBLE,
+    date DATETIME,
+    time TIME,
+    home_team_score_prediction INT,
+    away_team_score_prediction INT,
+    day_of_week INT,
+    month INT,
+    weekly_round INT,
+    home_team_pos INT,
+    home_team_matches_played INT,
+    home_team_wins INT,
+    home_team_draws INT,
+    home_team_losses INT,
+    home_team_gf INT,
+    home_team_ga INT,
+    home_team_ppg_last_5_matches DOUBLE,
+    home_team_points INT,
+    away_team_pos INT,
+    away_team_matches_played INT,
+    away_team_wins INT,
+    away_team_draws INT,
+    away_team_losses INT,
+    away_team_gf INT,
+    away_team_ga INT,
+    away_team_ppg_last_5_matches DOUBLE,
+    away_team_points INT
+);
+
+"""
