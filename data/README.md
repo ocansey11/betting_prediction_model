@@ -19,7 +19,7 @@ This directory contains the datasets scraped, cleaned, and prepared for the bett
 
 - **Training and Testing Data**: `training_data.csv` and `testing_data.csv` are the primary datasets used for training and evaluating the prediction
 - The training data will be split into train and test data
-- The testing_data will be purely for evaluatin the models performance on new unseen data
+- The testing_data will be purely for evaluatin the models performance on new unseen data (unfortunately there are duplicates here)
 
 ## Notes:
 
