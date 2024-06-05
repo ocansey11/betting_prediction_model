@@ -43,7 +43,9 @@ This project aims to predict football match outcomes using data scraped from var
 2. **Train Models**: Use `betting_prediction_model/comparing_classifiers.ipynb` to train and compare different models using the downloaded datasets.
 3. **Tune Models**: Use `betting_prediction_model/models.ipynb` to tune the best models.
 
-## Requirements
+4. **Automation**: You can run `Pulling training and test csv from 'data'` to directly pull training_data.csv and testing_data.csv into your database. This way you run the models straight away after.
+
+## Requirements for Automation and others
 
 ChromeDriver
 My sql Workbench
