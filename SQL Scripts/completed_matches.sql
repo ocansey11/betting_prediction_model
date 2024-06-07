@@ -28,9 +28,3 @@ CREATE TABLE <nameofdb>.<nameoftable> (
     month INT,
     weekly_round INT
 );
-
-
-INSERT INTO bet_prediction_model.forebet_prediction_table
-SELECT * FROM sandbox.forebet_prediction_table;
-
-
