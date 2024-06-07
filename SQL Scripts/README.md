@@ -20,7 +20,10 @@ Unfortunately, the tables do not come with any data. Hence the following sql scr
 `training_data_automation.sql`
 might run into a few errors.
 
-Data
-You can import and insert csv data from `data` folder into these tables after creation before you run the `automation` sql scripts
+### Note:
+After creating the tables, you need to import data into `completed_matches`, `upcoming_matches`, `previous_league_standings`, `current_league_standings` before you can run `testing_data_automation.sql`, and `training_data_automation.sql`
+
+## Data
+You can import and insert csv data from `data` folder into these tables( `completed_matches`, `upcoming_matches`, `previous_league_standings`, `current_league_standings`) after creation `before` you run the `automation` sql scripts for training and testing.
 
 
