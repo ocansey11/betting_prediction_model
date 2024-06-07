@@ -2,10 +2,14 @@
 
 This part of the project involves preprocessing the scraped data to create training and testing datasets for the betting prediction model. The process involves running several Jupyter notebooks to scrape data from various sources and combine them into cohesive datasets.
 
-## Scrapping Data Notebooks
+## Requirements
+- Understand the flowchart and the `timing` of having respective data such as previous_league_standings and current_leagues standings.
+- Go to data scraping folder. Run the respective notebooks in their respective order. Note: some notebooks need to be run a day before upcoming matches are played(`Scrapping Premier League Table (For Training).ipynb`). Then another to be run after matches are played(`Scrapping Forebet Prediction Table Completed Matches.ipynb`). This makes up yur training data.
+-  `Betting Prediction Model- Scraping Premier League Table (For Testing).ipynb` & `Betting Prediction Model - Scrapping Forebet Upcoming Matches.ipynb` combine to give you your testing data and can be run at the same time.
+- Have `completed_matches`, `upcoming_matches`, `previous_league_standings`, `current_league_standings` ready
 
+### Reminder of crapping Data Notebooks
 The following Jupyter notebooks are used to scrape data:
-
 - `Betting Prediction Model - Scrapping Forebet Prediction Table Completed Matches.ipynb`: Scrapes data for completed matches from the Forebet prediction table.
 - `Betting Prediction Model - Scrapping Forebet Upcoming Matches.ipynb`: Scrapes data for upcoming matches from the Forebet prediction table.
 - `Betting Prediction Model - Scrapping Premier League Table (For Training).ipynb`: Scrapes data for the Premier League table, used for training the model.
