@@ -15,14 +15,12 @@ To create the tables manually using these SQL scripts, follow these steps:
 3. Open the SQL script file for example (`completed_matches.sql`) in your MySQL client.
 4. Execute the SQL script to create the tables in your database.
 
-The tables created by these scripts include:
+Unfortunately, the tables do not come with any data. Hence the following sql scripts
+`testing_data_automation.sql`
+`training_data_automation.sql`
+might run into a few errors.
 
-- `training_data`: Stores data for training machine learning models.
-- `testing_data`: Stores data for testing machine learning models.
-- Add any additional scripts or SQL files as needed for your project's database operations.
+Data
+You can import and insert csv data from `data` folder into these tables after creation before you run the `automation` sql scripts
 
-Example:
 
-```sql
--- Connect to your MySQL database and execute the SQL scripts using a MySQL client tool or through your Python script.
-```
