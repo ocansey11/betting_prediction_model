@@ -1,8 +1,4 @@
 
-
--- drop table  <nameofdb>.<nameoftable>;
-
-
 CREATE TABLE <nameofdb>.<nameoftable> (
     home text,
     away text,
