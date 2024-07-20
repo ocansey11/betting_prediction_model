@@ -1,0 +1,98 @@
+Jul 19, 2024 2:31:54 PM net.sourceforge.tessboxeditor.TessTrainer makeBox
+INFO: Make Box File
+Jul 19, 2024 2:31:54 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-3.png, image-3, batch.nochop, makebox]
+Jul 19, 2024 2:31:56 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:56 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-3b.png, image-3b, batch.nochop, makebox]
+Jul 19, 2024 2:31:56 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:56 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-3c.png, image-3c, batch.nochop, makebox]
+Jul 19, 2024 2:31:56 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:56 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-3d.png, image-3d, batch.nochop, makebox]
+Jul 19, 2024 2:31:57 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:57 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4.png, image-4, batch.nochop, makebox]
+Jul 19, 2024 2:31:57 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:57 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4a.png, image-4a, batch.nochop, makebox]
+Jul 19, 2024 2:31:58 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:58 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4b.png, image-4b, batch.nochop, makebox]
+Jul 19, 2024 2:31:58 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:58 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4c.png, image-4c, batch.nochop, makebox]
+Jul 19, 2024 2:31:58 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:58 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4d.png, image-4d, batch.nochop, makebox]
+Jul 19, 2024 2:31:59 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:59 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4e.png, image-4e, batch.nochop, makebox]
+Jul 19, 2024 2:31:59 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:59 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4f.png, image-4f, batch.nochop, makebox]
+Jul 19, 2024 2:31:59 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:31:59 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4g.png, image-4g, batch.nochop, makebox]
+Jul 19, 2024 2:32:00 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:00 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4h.png, image-4h, batch.nochop, makebox]
+Jul 19, 2024 2:32:00 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:00 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4i.png, image-4i, batch.nochop, makebox]
+Jul 19, 2024 2:32:00 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:00 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-4j.png, image-4j, batch.nochop, makebox]
+Jul 19, 2024 2:32:01 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:01 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-5.png, image-5, batch.nochop, makebox]
+Jul 19, 2024 2:32:01 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:01 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-5a.png, image-5a, batch.nochop, makebox]
+Jul 19, 2024 2:32:01 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:01 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-6.png, image-6, batch.nochop, makebox]
+Jul 19, 2024 2:32:02 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:02 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-6a.png, image-6a, batch.nochop, makebox]
+Jul 19, 2024 2:32:02 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:02 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-6b.png, image-6b, batch.nochop, makebox]
+Jul 19, 2024 2:32:02 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:02 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-6c.png, image-6c, batch.nochop, makebox]
+Jul 19, 2024 2:32:03 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:03 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-6d.png, image-6d, batch.nochop, makebox]
+Jul 19, 2024 2:32:03 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:03 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image-7.png, image-7, batch.nochop, makebox]
+Jul 19, 2024 2:32:03 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
+Jul 19, 2024 2:32:03 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Command: [C:\Users\kevin\Desktop\Kevin Work and Study\alxModules\Data Science Tech Track Part 2\ML Projects\Phase 2\tools\jTessBoxEditor\tesseract-ocr/tesseract, image3e.png, image3e, batch.nochop, makebox]
+Jul 19, 2024 2:32:03 PM net.sourceforge.tessboxeditor.TessTrainer runCommand
+INFO: Exit value = 0
