@@ -1,0 +1,3 @@
+[submodule "Phase 2/tesstrain"]
+  path = Phase 2/tesstrain
+  url = https://github.com/ocansey11/tesstrain.git
