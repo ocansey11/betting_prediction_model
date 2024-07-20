@@ -1,0 +1,7 @@
+sqlalchemy
+pymysql
+pandas
+numpy
+matplotlib
+selenium
+chardet
