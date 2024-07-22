@@ -1,0 +1,7 @@
+eng_betway_model-ground-truth/image1.tif
+eng_betway_model-ground-truth/image2.tif
+eng_betway_model-ground-truth/image3.tif
+eng_betway_model-ground-truth/image4.tif
+eng_betway_model-ground-truth/image6.tif
+eng_betway_model-ground-truth/image7.tif
+eng_betway_model-ground-truth/image8.tif
